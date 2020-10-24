@@ -12,7 +12,7 @@ github_repo: "https://github.com/taiyangxingqiu58/taiyangxingqiu58.github.io.git
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "寻找，发现，品味，人生"
-sidebar-avatar: /img/about-HJ.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/猫咪.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # SNS settings
 RSS: false
