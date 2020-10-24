@@ -76,15 +76,15 @@ service-worker: true
 friends: [
     {
         title: "随笔文章",
-        href: "https://github.com/globien/globien.github.io/wiki"
+        href: "img/开发中.jpg"
     },{
         title: "传记",
-        href: "https://globien.fandom.com/wiki/Globien_Wiki"
+        href: "img/开发中.jpg"
     },{
         title: "素材",
-        href: "https://zhuanlan.zhihu.com/Artificial-International-Language"
+        href: "img/开发中.jpg"
     },{
         title: "资源",
-        href: "https://www.zhihu.com/people/henry-jiang-78" 
+        href: "img/开发中.jpg" 
     }
 ]
