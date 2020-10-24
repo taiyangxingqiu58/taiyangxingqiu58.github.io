@@ -1,7 +1,7 @@
 # Site settings
 title: 西津书局
 SEOTitle: 帅帅的博客
-header-img: img/post-bg-desk.jpg
+header-img: img/美丽国外城市建筑街道风景图片高清壁纸2 - 1.jpg
 email: 1280311397@qq.com
 description: "寻找，发现，品味，人生。"
 keyword: "帅帅, 西津书局, 传记"
@@ -75,16 +75,16 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "Globien Wiki Dictionary",
+        title: "随笔文章",
         href: "https://github.com/globien/globien.github.io/wiki"
     },{
-        title: "Globien Community",
+        title: "传记",
         href: "https://globien.fandom.com/wiki/Globien_Wiki"
     },{
-        title: "知乎：人造国际语",
+        title: "素材",
         href: "https://zhuanlan.zhihu.com/Artificial-International-Language"
     },{
-        title: "知乎：Henri_Jambo",
+        title: "资源",
         href: "https://www.zhihu.com/people/henry-jiang-78" 
     }
 ]
