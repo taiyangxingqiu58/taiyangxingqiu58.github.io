@@ -9,10 +9,10 @@ catalog:    ture
 tags:       
     - 科学小宇宙 
 ---
-[1-img](img/2020-09-02-封面.png)
+![1-img](img/2020-09-02-封面.png)
  炎炎夏日里，让大家最最最头疼之一的应该就是那阴魂不散的嗡嗡声，这意味着有个小东西正在觊觎我们的血，还会使坏的让我们皮肤上起个搔痒难耐的小包。这小东西数量之庞大，身影之隐蔽，年年夏天从未缺席过，大家一定中招许多年了吧，那小编今天带大家看看这小东西（wen) (zi）留下包和痒的过程吧，正所谓知己知彼百战不殆，小编今天还会给大家推荐几个防蚊小妙招，让大家能在这闷热难当的夏日里，好受点。。。。至少能睡个好觉，不用再挠！挠！挠！个不停。
 
-[1-img](img/2020-09-02-封面.png)
+![1-img](img/2020-09-02-封面.png)
 To build a Globien word, we use the "English/French Word + Chinese Pinyin" form. Let's have a look:
 
 * new/novel：new + xin = nine  （-e indicates an adjective word）
