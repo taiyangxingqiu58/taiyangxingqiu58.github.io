@@ -33,3 +33,4 @@ The superscript is not a portion of a word.  It's just a hint.  An Indo-European
 
 By the way, the expression for "pandemic" is: **gronde infekanze malindeo**.  It's a little bit long, but as an IAL and for the sake of simpleness, Globien won't build too many words as that in English.  Also, an Indo-European speaker can easily recognize this phrase. 
 
+[原文链接](https://mp.weixin.qq.com/s/HqfH5IWatFTRYGoqu_tztg)
