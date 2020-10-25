@@ -4,7 +4,7 @@ title:      这就是为什么蚊子会留下包和痒
 subtitle:   让我们还原蚊子君的犯罪现场（发表于科学小宇宙）.
 date:       2020-09-2
 author:     帅帅
-header-img: img/post-bg-coronavirus.jpg
+header-img: img-post/2020-09-02-封面.png
 catalog:    ture
 tags:       
     - 科学小宇宙 Tips
