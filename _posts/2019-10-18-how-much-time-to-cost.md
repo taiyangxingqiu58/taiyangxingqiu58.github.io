@@ -7,7 +7,7 @@ author:     Henri Jambo
 header-img: img/post-bg-alibaba.jpg
 catalog: true
 tags:
-    - 设计点滴
+     设计点滴
 ---
 
 作为人造国际通用语，格罗比言的设计目标是：简单易学易用，大多数人可以在很短时间内学会。
