@@ -9,7 +9,7 @@ catalog:    false
 tags:       
     - 开发
 ---
-<!-- ---
+<!--
 <html>
 <body>
 
@@ -38,6 +38,33 @@ tags:
   </tr>
   
 </table>
+# 定位1
+<a href="#1">第一段</a>
+<a href="#2">第二段</a>
+<a href="#3">第三段</a>
+<a name="1">第一段</a>
+<a name="2">第二段</a>
+<a name="3">第三段</a>
+#定位2
+<span id="jump">跳转到的地方</span>
+[点击跳转](#jump)
+[MarkDown页面内跳转测试](#jump)
+<span id="jump">MarkDown页面内跳转测试</span>
+# 标题
+
+----
+## 目录
+1. [目录1](#jump1)
+2. [目录2](#jump2)
+
+---
+### <span id="jump1">1. 目录1</span>
+---
+### <span id="jump2">2. 目录2</span>
+
+
+
+
 
 </body>
 </html>
