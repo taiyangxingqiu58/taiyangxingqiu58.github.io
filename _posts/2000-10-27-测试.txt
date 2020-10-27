@@ -1,5 +1,5 @@
-
-layout:     post
+---  
+layout:   post
 title:     测试
 subtitle:  测试
 date:       2000-10-27
@@ -8,7 +8,9 @@ header-img: img-post/2020-09-02.jpg
 catalog:    false
 tags:       
     - 开发
----
+---  
+
+
 <!--
 <html>
 <body>
