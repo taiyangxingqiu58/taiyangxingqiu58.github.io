@@ -75,7 +75,7 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "随笔",
+        title: "书局",
         href: "img/开发中.jpg"
     },{
         title: "传记",
