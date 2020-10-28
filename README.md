@@ -3,7 +3,7 @@
 
 *动态浏览修改历史 
 在要浏览的文件前加入将github.com替换成github.githistory.xyz
-![xiaoguo]({{site.baseurl}}/img\study-gif\Git-History404.gif)
+![xiaoguo]({{site.baseurl}}/img/study-gif\Git-History404.gif)
 =======
 img\study-gif\Git-History404.gif
 D:\网页制作\taiyangxingqiu58.github.io\img\study-gif\Git-History404.gif
