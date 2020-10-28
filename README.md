@@ -1,8 +1,15 @@
+<<<<<<< HEAD
 ## 学习笔记   
 
 **动态浏览修改历史** 
 在要浏览的文件前加入将github.com替换成github.githistory.xyz
 [xiaoguo]({{site.baseurl}}/study-gif/Git-History404.gif)
+=======
+#学习笔记
+**动态浏览修改历史**
+在要浏览的文件前加入将github.com替换成github.githistory.xyz
+
+>>>>>>> 019be9b2021fb5cf65c716a526d822ce3f217605
 
 ### 致谢
 
