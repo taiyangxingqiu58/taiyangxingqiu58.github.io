@@ -1,16 +1,12 @@
-<<<<<<< HEAD
+
 ## 学习笔记   
 
-**动态浏览修改历史** 
+*动态浏览修改历史 
 在要浏览的文件前加入将github.com替换成github.githistory.xyz
-[xiaoguo]({{site.baseurl}}/study-gif/Git-History404.gif)
+![xiaoguo]({{site.baseurl}}/img\study-gif\Git-History404.gif)
 =======
-#学习笔记
-**动态浏览修改历史**
-在要浏览的文件前加入将github.com替换成github.githistory.xyz
-
->>>>>>> 019be9b2021fb5cf65c716a526d822ce3f217605
-
+img\study-gif\Git-History404.gif
+D:\网页制作\taiyangxingqiu58.github.io\img\study-gif\Git-History404.gif
 ### 致谢
 
 1. 这个模板是从这里 [BY](https://github.com/qiubaiying/qiubaiying.github.io) fork 的, 感谢作者BY。 
