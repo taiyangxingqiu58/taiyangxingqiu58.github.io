@@ -5,8 +5,9 @@
 在要浏览的文件前加入将github.com替换成github.githistory.xyz  
 
 > 
-> > > >![img](https://135editor.cdn.bcebos.com/files/users/908/9086708/202010/9TOfpORc_QQ2Z.gif)
-=======
+> > > >![img](https://135editor.cdn.bcebos.com/files/users/908/9086708/202010/9TOfpORc_QQ2Z.gif)  
+
+----
 ### 致谢
 
 1. 这个模板是从这里 [BY](https://github.com/qiubaiying/qiubaiying.github.io) fork 的, 感谢作者BY。 
