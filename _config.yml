@@ -76,10 +76,10 @@ service-worker: true
 friends: [
     {
         title: "书局",
-        href: "D:\网页制作\taiyangxingqiu58.github.io\_posts\2020-11-01-动态检查历史修改记录.md"
+        href: "img/开发中.jpg"
     },{
         title: "笔记",
-        href: "img/开发中.jpg"
+        href: "{{site.baseurl}}\_posts\2020-11-01-动态检查历史修改记录.md"
     },{
         title: "素材",
         href: "img/开发中.jpg"
