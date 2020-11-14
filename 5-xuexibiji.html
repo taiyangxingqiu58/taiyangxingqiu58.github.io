@@ -1,0 +1,199 @@
+---
+layout: page
+title: "学习笔记"
+description: "生活需要点厚重"
+header-img: "img-post/post-11-01-笔记.jpg"
+---
+
+<!-- Language Selector -->
+<!-- <select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
+    <option value="0" selected> 中文 Chinese </option>
+    <option value="1"> 英文 English </option>
+</select> -->
+
+<!-- Chinese Version -->
+<div class="zh post-container">
+
+    <!--copied from markdown -->
+    <blockquote><p><br>这里全都是兴趣的话题
+    有点不务正业呀~</p></blockquote>
+
+    <p>瞧瞧，有什么新家伙和😁...</p>
+        
+<h3 id="toc_0">开发工具</h3>
+
+<ul>
+<li><a href="{{site.baseurl}}/2020/11/13/markdown基本用法">markdown基本用法</a></li>
+<li>持续更新中...</li>
+</ul>
+
+<h3 id="toc_1">开发板</h3>
+
+<ul>
+<!--<li>十分钟掌握格罗比言字母和读音（<a href="{{site.baseurl}}/files/phonetics.pdf">中文</a>，English）</li>-->
+<li>51单片机</li>
+<li>arduino</li>
+<!--<li>流式</li>
+<li>核酸检测</li>
+<li>持续更新中...</li>  --> 
+</ul>
+
+<h3 id="toc_2">技巧</h3>
+
+<ul>
+<!--<li><a href="https://github.com/globien/globien.github.io/wiki">格罗比言维基词典</a></li>-->
+<!--<li><a href="{{site.baseurl}}/files/vocabulary-v0.6.pdf">格罗比言词汇表（V0.6）</a></li>-->
+<li><a href="{{site.baseurl}}/2020/11/01/动态检查历史修改记录">动态检查历史修改记录</a></li>
+<li>持续更新中... </li>
+</ul>
+
+<h3 id="toc_3">编程</h3>
+
+<ul>
+<!--<li>人造语言维基（中文）：<a href="https://yuyan.fandom.com/zh/wiki/%E4%B8%89%E5%8F%B6%E8%8D%89%E5%9B%BD%E9%99%85%E8%AF%AD">格罗比言·全球语</a></li>-->
+<!--<li>Conlang维基 (English)：<a href="https://conlang.fandom.com/wiki/Klovien_%E4%B8%89%E5%8F%B6%E8%AF%AD">Globien (格罗比言)</a></li>-->
+<!--<li>百度人造语言吧：<a href="https://tieba.baidu.com/p/6009002082">三叶草国际语</a></li>-->
+<li>持续更新中... </li>
+</ul>
+<h3 id="toc_4">网页开发</h3>
+<ul>
+    <li>持续更新中... </li>
+</ul>
+<hr>
+<h3 id="toc_5">生信</h3>
+<ul>
+    <li>持续更新中... </li>
+</ul>
+<hr>
+<small> <font color="a0a9a9">
+<b>特别说明：</b>
+<li>学习笔记仅供学习，谢绝他用，如需转载请注明出处</li>
+
+</font>
+<small>
+        
+</div>
+
+<!-- English Version -->
+<!-- <div class="en post-container">
+    <blockquote><p>Yet another iOS Developer. <br>
+    Yet another Life-long Student.</p></blockquote>
+
+    <p>Hi, I am <strong>Baiying Qiu</strong>，you can call me <strong>BY</strong>. I am an iOS software engineer and currently working in Xiamen</p>
+
+    <p>This is my personal blog, through making Github Pages and Jekyll.My GitHub  👉 <a href="http://github.com/qiubaiying">Github·BY</a>.</p>
+    
+    <p>I am a sports enthusiast, I like fitness, running and boxing.</p>
+
+    <h5>Talks</h5>
+
+    <ul>
+    <li><a href="https://github.com">GitHub</a></li>
+    <li><a href="http://jekyll.com.cn/">jekyll</a></li>
+    <li><a href="https://pages.github.com/">GitHub Pages</a></li>
+    <li><a href="https://qiubaiying.github.io">BY</a></li>
+    </ul>
+</div> -->
+
+<!-- Handle Language Change -->
+<script type="text/javascript">
+    // get nodes
+    var $zh = document.querySelector(".zh");
+    var $en = document.querySelector(".en");
+    var $select = document.querySelector("select");
+
+    // bind hashchange event
+    window.addEventListener('hashchange', _render);
+
+    // handle render
+    function _render(){
+        var _hash = window.location.hash;
+        // en
+        if(_hash == "#en"){
+            $select.selectedIndex = 1;
+            $en.style.display = "block";
+            $zh.style.display = "none";
+        // zh by default
+        }else{
+            // not trigger onChange, otherwise cause a loop call.
+            $select.selectedIndex = 0;
+            $zh.style.display = "block";
+            $en.style.display = "none";
+        }
+    }
+
+    // handle select change
+    function onLanChange(index){
+        if(index == 0){
+            window.location.hash = "#zh"
+        }else{
+            window.location.hash = "#en"
+        }
+    }
+
+    // init
+    _render();
+</script>
+
+
+<!-- Gitalk 评论 start  -->
+{% if site.gitalk.enable %}
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+    <script type="text/javascript">
+    var gitalk = new Gitalk({
+    clientID: '{{site.gitalk.clientID}}',
+    clientSecret: '{{site.gitalk.clientSecret}}',
+    repo: '{{site.gitalk.repo}}',
+    owner: '{{site.gitalk.owner}}',
+    admin: ['{{site.gitalk.admin}}'],
+    distractionFreeMode: '{{site.gitalk.distractionFreeMode}}',
+    id: 'wenzhang',
+    });
+    gitalk.render('gitalk-container');
+</script>
+{% endif %}
+<!--Gitalk end -->
+
+ <!-- disqus 评论框 start  -->
+{% if site.disqus.enable %}
+
+<div class="comment">
+    <div id="disqus_thread" class="disqus-thread">
+    </div>
+</div>
+<!-- disqus 评论框 end -->
+
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "{{site.disqus.username}}";
+    var disqus_identifier = "{{site.disqus.username}}/{{page.url}}";
+    var disqus_url = "{{site.url}}{{page.url}}";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
+{% endif %}
+
+<!--百度资源搜索平台自动推送-->
+<script>
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https'){
+       bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+      }
+      else{
+      bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+      }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+    </script>
